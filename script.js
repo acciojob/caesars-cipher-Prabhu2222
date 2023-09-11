@@ -34,7 +34,7 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
-	for(let i=0;i<encodeStr.length;i++){
+	for(let i=0;i<encodedStr.length;i++){
 		let char=encodedStr[i];
 		let decodeChar=lookup[char];
 		decodedArr.push(decodeChar);
@@ -48,7 +48,7 @@ function rot13(encodedStr) {
 // pressing the run button at the top. To run it with input 36,
 // uncomment the following line
 
-console.log(rot13("SERR YBIR? NPPVBWBO"));
+// console.log(rot13("SERR YBIR? NPPVBWBO"));
 
 // Do not change this line
 window.rot13 = rot13;
